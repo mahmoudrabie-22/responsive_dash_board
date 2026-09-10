@@ -1,7 +1,11 @@
 // ignore_for_file: prefer_single_quotes
 class Assets {
   Assets._();
-  
+
+  /// Assets for assetsAvatar
+  /// assets/avatar.svg
+  static const String assetsAvatar = "assets/avatar.svg";
+
   /// Assets for assetsCardReceive
   /// assets/card-receive.svg
   static const String assetsCardReceive = "assets/card-receive.svg";
@@ -22,6 +26,11 @@ class Assets {
   /// assets/convert-card.svg
   static const String assetsConvertCard = "assets/convert-card.svg";
 
+  /// Assets for assetsFontsMontserratVariableFontWght
+  /// assets/fonts/Montserrat-VariableFont_wght.ttf
+  static const String assetsFontsMontserratVariableFontWght =
+      "assets/fonts/Montserrat-VariableFont_wght.ttf";
+
   /// Assets for assetsFrame
   /// assets/Frame.svg
   static const String assetsFrame = "assets/Frame.svg";
@@ -40,11 +49,15 @@ class Assets {
 
   /// Assets for assetsMask group
   /// assets/Mask group.svg
-  static const String assetsMaskgroup = "assets/Mask group.svg";
+  static const String assetsMaskGroup = "assets/Mask group.svg";
 
   /// Assets for assetsMoneys
   /// assets/moneys.svg
   static const String assetsMoneys = "assets/moneys.svg";
+
+  /// Assets for assetsMontserrat
+  /// assets/Montserrat.zip
+  static const String assetsMontserrat = "assets/Montserrat.zip";
 
   /// Assets for assetsSetting2
   /// assets/setting-2.svg
@@ -54,4 +67,3 @@ class Assets {
   /// assets/wallet-2.png
   static const String assetsWallet2 = "assets/wallet-2.png";
 }
-
