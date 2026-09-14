@@ -3,7 +3,7 @@ import 'package:responsive_dash_board/widgets/all_expenses.dart';
 import 'package:responsive_dash_board/widgets/custom_drawer.dart';
 
 class DesktopLayout extends StatelessWidget {
-  const new({super.key});
+  const DesktopLayout({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,10 @@ class DesktopLayout extends StatelessWidget {
         children: [
           Expanded(child: CustomDrawer()),
           SizedBox(width: 32),
-          Column(children: [Expanded(flex: 2, child: AllExpenses())]),
+          Expanded(
+            flex: 2,
+            child: Column(children: [Expanded(child: AllExpenses())]),
+          ),
         ],
       ),
     );
